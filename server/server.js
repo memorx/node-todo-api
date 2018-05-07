@@ -28,9 +28,6 @@ app.listen(3000, () => {
    console.log('Stared on port 3000');
 });
 
-
-
-
 // var newTodo = new Todo({
 //     text: 'Cook dinner'
 // });
@@ -61,4 +58,7 @@ app.listen(3000, () => {
 // }, (e) => {
 //     console.log('Unable to save user', e);
 // });
+
+
+module.exports = {app};
 
